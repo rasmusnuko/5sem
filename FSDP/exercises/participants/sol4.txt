@@ -1,0 +1,2 @@
+seq 9 | sed -e 's/^.*/@student.sdu.dk/' > emails.txt
+paste -d'\0' usernames.txt emails.txt

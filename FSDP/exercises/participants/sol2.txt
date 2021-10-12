@@ -1,0 +1,1 @@
+cat participants1.txt | tr -d : | tr @ $
